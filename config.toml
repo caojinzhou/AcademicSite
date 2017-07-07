@@ -9,7 +9,7 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-12345678-9"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
@@ -17,6 +17,9 @@ defaultContentLanguageInSubdir = false
 
 [blackfriday]
   hrefTargetBlank = true
+
+[permalinks]
+    post = "/:year/:month/:day/:slug"
 
 [params]
   name = "Cao-Jin Zhou"
@@ -126,7 +129,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
+    link = "mailto:caojinzhou@whu.edu.cn"
 
   [[params.social]]
     icon = "twitter"
@@ -141,6 +144,16 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
+    link = "//github.com/gcushen"
+
+  [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "//github.com/gcushen"
+
+  [[params.social]]
+    icon = "researchgate"
+    icon_pack = "ai"
     link = "//github.com/gcushen"
 
 
@@ -160,7 +173,7 @@ defaultContentLanguageInSubdir = false
   weight = 2
 
 [[menu.main]]
-  name = "Posts"
+  name = "Blogs"
   url = "#posts"
   weight = 3
 
