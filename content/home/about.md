@@ -21,7 +21,7 @@ weight = 1
 [[education.courses]]
   course = "Ph.D. Candidate in Geographic Information Science"
   institution = "LIESMARS, Wuhan University"
-  year = Present
+  year = "Present"
 
 [[education.courses]]
   course = "MEng in Geographic Information Science"

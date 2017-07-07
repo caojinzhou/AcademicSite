@@ -1,5 +1,5 @@
-baseurl = "https://caojinzhou.github.io/"  # End your URL with a `/` trailing slash.
-title = "Academic"
+baseurl = "http://caojinzhou.com/"  # End your URL with a `/` trailing slash.
+title = "JINZHOU CAO"
 copyright = "&copy; 2016 Your Name"
 theme = "academic"
 enableEmoji = true
@@ -41,7 +41,7 @@ defaultContentLanguageInSubdir = false
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
-  math = True
+  math = true
 
   # Highlight.js options
   #   highlight
